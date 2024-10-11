@@ -16,9 +16,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <title>Atualizar Refrigerante</title>
 </head>
 <body>
+    <section>
+        <div>
+            
+        </div>
+    </section>
     <h3>Atualizar Refrigerante</h3>
     <form method="POST" action="atualizaRefri.php">
         <input type="hidden" name="id" value="<?php echo $refriSelecionado['id']; ?>">
